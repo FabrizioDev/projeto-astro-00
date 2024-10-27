@@ -1,0 +1,30 @@
+---
+import HeaderButton from "./HeaderButton.astro"
+
+console.log('JavaScript')
+---
+
+<header class="py-8 px-4 mx-auto mas-w-xl lg:py-16 lg:px-6">
+    <div class="mx-auto text-center mb-8 lg:mb-16">
+        <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-white">
+            Lançamentos SpaceX 🚀
+        </h2>
+        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            Todas as informações sobre Lançamentos Espaciais.
+        </p>
+    </div>
+
+    <nav
+        class="flex flex-col item-center justify-between w-full text-center md:flex-row"
+    >
+        <HeaderButton class="text-white" href="/">
+            Últimos laçamentos
+        </HeaderButton>
+        <HeaderButton class="text-white" href="/about">
+            Sobre o pojeto
+        </HeaderButton>
+        <HeaderButton class="text-white" href="/oldest">
+            Os mais antigos
+        </HeaderButton>
+    </nav>
+</header>
