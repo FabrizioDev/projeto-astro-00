@@ -22,3 +22,7 @@ Este é um projeto simples que utiliza o framework Astro para criar um site onde
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu_usuario/seu_repositorio.git
+   cd repositorio
+   npm install
+   npm run dev
+   ```
